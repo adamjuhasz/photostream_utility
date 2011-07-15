@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5A062C13CFF07D00C3B00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5A062B13CFF07D00C3B00D /* UIKit.framework */; };
+		9C5A062E13CFF07D00C3B00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5A062D13CFF07D00C3B00D /* Foundation.framework */; };
+		9C5A063013CFF07D00C3B00D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5A062F13CFF07D00C3B00D /* CoreGraphics.framework */; };
+		9C5A063613CFF07D00C3B00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A063413CFF07D00C3B00D /* InfoPlist.strings */; };
+		9C5A063913CFF07D00C3B00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A063813CFF07D00C3B00D /* main.m */; };
+		9C5A063C13CFF07D00C3B00D /* photostream_utilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A063B13CFF07D00C3B00D /* photostream_utilityAppDelegate.m */; };
+		9C5A063F13CFF07D00C3B00D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A063D13CFF07D00C3B00D /* MainWindow.xib */; };
+		9C5A064213CFF07D00C3B00D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A064113CFF07D00C3B00D /* MainViewController.m */; };
+		9C5A064413CFF07D00C3B00D /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A064313CFF07D00C3B00D /* MainView.xib */; };
+		9C5A064713CFF07D00C3B00D /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A064613CFF07D00C3B00D /* FlipsideViewController.m */; };
+		9C5A064913CFF07D00C3B00D /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A064813CFF07D00C3B00D /* FlipsideView.xib */; };
+		9C5A065013CFF07D00C3B00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5A062B13CFF07D00C3B00D /* UIKit.framework */; };
+		9C5A065113CFF07D00C3B00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5A062D13CFF07D00C3B00D /* Foundation.framework */; };
+		9C5A065213CFF07D00C3B00D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5A062F13CFF07D00C3B00D /* CoreGraphics.framework */; };
+		9C5A065A13CFF07D00C3B00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A065813CFF07D00C3B00D /* InfoPlist.strings */; };
+		9C5A065D13CFF07D00C3B00D /* photostream_utilityTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9C5A065C13CFF07D00C3B00D /* photostream_utilityTests.h */; };
+		9C5A065F13CFF07D00C3B00D /* photostream_utilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5A065E13CFF07D00C3B00D /* photostream_utilityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C5A065313CFF07D00C3B00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5A061E13CFF07C00C3B00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5A062613CFF07C00C3B00D;
+			remoteInfo = photostream_utility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C5A062713CFF07D00C3B00D /* photostream_utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photostream_utility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5A062B13CFF07D00C3B00D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C5A062D13CFF07D00C3B00D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C5A062F13CFF07D00C3B00D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C5A063313CFF07D00C3B00D /* photostream_utility-Info.plist */ = {isa = PBXFileReference; path = "photostream_utility-Info.plist"; sourceTree = "<group>"; };
+		9C5A063513CFF07D00C3B00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C5A063713CFF07D00C3B00D /* photostream_utility-Prefix.pch */ = {isa = PBXFileReference; path = "photostream_utility-Prefix.pch"; sourceTree = "<group>"; };
+		9C5A063813CFF07D00C3B00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C5A063A13CFF07D00C3B00D /* photostream_utilityAppDelegate.h */ = {isa = PBXFileReference; path = photostream_utilityAppDelegate.h; sourceTree = "<group>"; };
+		9C5A063B13CFF07D00C3B00D /* photostream_utilityAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photostream_utilityAppDelegate.m; sourceTree = "<group>"; };
+		9C5A063E13CFF07D00C3B00D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9C5A064013CFF07D00C3B00D /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		9C5A064113CFF07D00C3B00D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9C5A064313CFF07D00C3B00D /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		9C5A064513CFF07D00C3B00D /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		9C5A064613CFF07D00C3B00D /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		9C5A064813CFF07D00C3B00D /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		9C5A064F13CFF07D00C3B00D /* photostream_utilityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photostream_utilityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5A065713CFF07D00C3B00D /* photostream_utilityTests-Info.plist */ = {isa = PBXFileReference; path = "photostream_utilityTests-Info.plist"; sourceTree = "<group>"; };
+		9C5A065913CFF07D00C3B00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C5A065B13CFF07D00C3B00D /* photostream_utilityTests-Prefix.pch */ = {isa = PBXFileReference; path = "photostream_utilityTests-Prefix.pch"; sourceTree = "<group>"; };
+		9C5A065C13CFF07D00C3B00D /* photostream_utilityTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = photostream_utilityTests.h; sourceTree = "<group>"; };
+		9C5A065E13CFF07D00C3B00D /* photostream_utilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photostream_utilityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5A062413CFF07C00C3B00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A062C13CFF07D00C3B00D /* UIKit.framework in Frameworks */,
+				9C5A062E13CFF07D00C3B00D /* Foundation.framework in Frameworks */,
+				9C5A063013CFF07D00C3B00D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5A064B13CFF07D00C3B00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A065013CFF07D00C3B00D /* UIKit.framework in Frameworks */,
+				9C5A065113CFF07D00C3B00D /* Foundation.framework in Frameworks */,
+				9C5A065213CFF07D00C3B00D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5A061C13CFF07C00C3B00D = {
+			isa = PBXGroup;
+			children = (
+				9C5A063113CFF07D00C3B00D /* photostream_utility */,
+				9C5A065513CFF07D00C3B00D /* photostream_utilityTests */,
+				9C5A062A13CFF07D00C3B00D /* Frameworks */,
+				9C5A062813CFF07D00C3B00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5A062813CFF07D00C3B00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A062713CFF07D00C3B00D /* photostream_utility.app */,
+				9C5A064F13CFF07D00C3B00D /* photostream_utilityTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C5A062A13CFF07D00C3B00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A062B13CFF07D00C3B00D /* UIKit.framework */,
+				9C5A062D13CFF07D00C3B00D /* Foundation.framework */,
+				9C5A062F13CFF07D00C3B00D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C5A063113CFF07D00C3B00D /* photostream_utility */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A063A13CFF07D00C3B00D /* photostream_utilityAppDelegate.h */,
+				9C5A063B13CFF07D00C3B00D /* photostream_utilityAppDelegate.m */,
+				9C5A063D13CFF07D00C3B00D /* MainWindow.xib */,
+				9C5A064013CFF07D00C3B00D /* MainViewController.h */,
+				9C5A064113CFF07D00C3B00D /* MainViewController.m */,
+				9C5A064313CFF07D00C3B00D /* MainView.xib */,
+				9C5A064513CFF07D00C3B00D /* FlipsideViewController.h */,
+				9C5A064613CFF07D00C3B00D /* FlipsideViewController.m */,
+				9C5A064813CFF07D00C3B00D /* FlipsideView.xib */,
+				9C5A063213CFF07D00C3B00D /* Supporting Files */,
+			);
+			path = photostream_utility;
+			sourceTree = "<group>";
+		};
+		9C5A063213CFF07D00C3B00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A063313CFF07D00C3B00D /* photostream_utility-Info.plist */,
+				9C5A063413CFF07D00C3B00D /* InfoPlist.strings */,
+				9C5A063713CFF07D00C3B00D /* photostream_utility-Prefix.pch */,
+				9C5A063813CFF07D00C3B00D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C5A065513CFF07D00C3B00D /* photostream_utilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A065C13CFF07D00C3B00D /* photostream_utilityTests.h */,
+				9C5A065E13CFF07D00C3B00D /* photostream_utilityTests.m */,
+				9C5A065613CFF07D00C3B00D /* Supporting Files */,
+			);
+			path = photostream_utilityTests;
+			sourceTree = "<group>";
+		};
+		9C5A065613CFF07D00C3B00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C5A065713CFF07D00C3B00D /* photostream_utilityTests-Info.plist */,
+				9C5A065813CFF07D00C3B00D /* InfoPlist.strings */,
+				9C5A065B13CFF07D00C3B00D /* photostream_utilityTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C5A062613CFF07C00C3B00D /* photostream_utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5A066213CFF07D00C3B00D /* Build configuration list for PBXNativeTarget "photostream_utility" */;
+			buildPhases = (
+				9C5A062313CFF07C00C3B00D /* Sources */,
+				9C5A062413CFF07C00C3B00D /* Frameworks */,
+				9C5A062513CFF07C00C3B00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photostream_utility;
+			productName = photostream_utility;
+			productReference = 9C5A062713CFF07D00C3B00D /* photostream_utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C5A064E13CFF07D00C3B00D /* photostream_utilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5A066513CFF07D00C3B00D /* Build configuration list for PBXNativeTarget "photostream_utilityTests" */;
+			buildPhases = (
+				9C5A064A13CFF07D00C3B00D /* Sources */,
+				9C5A064B13CFF07D00C3B00D /* Frameworks */,
+				9C5A064C13CFF07D00C3B00D /* Resources */,
+				9C5A064D13CFF07D00C3B00D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5A065413CFF07D00C3B00D /* PBXTargetDependency */,
+			);
+			name = photostream_utilityTests;
+			productName = photostream_utilityTests;
+			productReference = 9C5A064F13CFF07D00C3B00D /* photostream_utilityTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5A061E13CFF07C00C3B00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = asterisk;
+			};
+			buildConfigurationList = 9C5A062113CFF07C00C3B00D /* Build configuration list for PBXProject "photostream_utility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C5A061C13CFF07C00C3B00D;
+			productRefGroup = 9C5A062813CFF07D00C3B00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5A062613CFF07C00C3B00D /* photostream_utility */,
+				9C5A064E13CFF07D00C3B00D /* photostream_utilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C5A062513CFF07C00C3B00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A063613CFF07D00C3B00D /* InfoPlist.strings in Resources */,
+				9C5A063F13CFF07D00C3B00D /* MainWindow.xib in Resources */,
+				9C5A064413CFF07D00C3B00D /* MainView.xib in Resources */,
+				9C5A064913CFF07D00C3B00D /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5A064C13CFF07D00C3B00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A065A13CFF07D00C3B00D /* InfoPlist.strings in Resources */,
+				9C5A065D13CFF07D00C3B00D /* photostream_utilityTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C5A064D13CFF07D00C3B00D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5A062313CFF07C00C3B00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A063913CFF07D00C3B00D /* main.m in Sources */,
+				9C5A063C13CFF07D00C3B00D /* photostream_utilityAppDelegate.m in Sources */,
+				9C5A064213CFF07D00C3B00D /* MainViewController.m in Sources */,
+				9C5A064713CFF07D00C3B00D /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5A064A13CFF07D00C3B00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5A065F13CFF07D00C3B00D /* photostream_utilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5A065413CFF07D00C3B00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5A062613CFF07C00C3B00D /* photostream_utility */;
+			targetProxy = 9C5A065313CFF07D00C3B00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C5A063413CFF07D00C3B00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5A063513CFF07D00C3B00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9C5A063D13CFF07D00C3B00D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5A063E13CFF07D00C3B00D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9C5A065813CFF07D00C3B00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5A065913CFF07D00C3B00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C5A066013CFF07D00C3B00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C5A066113CFF07D00C3B00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9C5A066313CFF07D00C3B00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photostream_utility/photostream_utility-Prefix.pch";
+				INFOPLIST_FILE = "photostream_utility/photostream_utility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C5A066413CFF07D00C3B00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photostream_utility/photostream_utility-Prefix.pch";
+				INFOPLIST_FILE = "photostream_utility/photostream_utility-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9C5A066613CFF07D00C3B00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/photostream_utility.app/photostream_utility";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photostream_utilityTests/photostream_utilityTests-Prefix.pch";
+				INFOPLIST_FILE = "photostream_utilityTests/photostream_utilityTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9C5A066713CFF07D00C3B00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/photostream_utility.app/photostream_utility";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "photostream_utilityTests/photostream_utilityTests-Prefix.pch";
+				INFOPLIST_FILE = "photostream_utilityTests/photostream_utilityTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5A062113CFF07C00C3B00D /* Build configuration list for PBXProject "photostream_utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5A066013CFF07D00C3B00D /* Debug */,
+				9C5A066113CFF07D00C3B00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5A066213CFF07D00C3B00D /* Build configuration list for PBXNativeTarget "photostream_utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5A066313CFF07D00C3B00D /* Debug */,
+				9C5A066413CFF07D00C3B00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C5A066513CFF07D00C3B00D /* Build configuration list for PBXNativeTarget "photostream_utilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5A066613CFF07D00C3B00D /* Debug */,
+				9C5A066713CFF07D00C3B00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5A061E13CFF07C00C3B00D /* Project object */;
+}
