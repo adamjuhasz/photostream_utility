@@ -1,0 +1,8 @@
+build/
+photostream_utility.xcodeproj/*.pbxuser
+photostream_utility.xcodeproj/*.mode*
+photostream_utility.xcodeproj/xcuserdata*
+photostream_utility.xcodeproj/project.xcworkspace
+*~
+*#
+.arcconfig
