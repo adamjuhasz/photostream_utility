@@ -36,6 +36,8 @@
 		9CED71FD13CFF66C00AF24D0 /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CED71F013CFF66B00AF24D0 /* FBDialog.bundle */; };
 		9CED71FE13CFF66C00AF24D0 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED71F213CFF66B00AF24D0 /* Facebook.m */; };
 		9CED720213CFF74400AF24D0 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED720113CFF74400AF24D0 /* FlipsideView.m */; };
+		9CED720613CFF7DC00AF24D0 /* fbPhotoStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED720513CFF7DC00AF24D0 /* fbPhotoStream.m */; };
+		9CED720913CFFD9200AF24D0 /* photostream_utility.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CED720813CFFD9200AF24D0 /* photostream_utility.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,10 @@
 		9CED71F313CFF66B00AF24D0 /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
 		9CED720013CFF74400AF24D0 /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideView.h; sourceTree = "<group>"; };
 		9CED720113CFF74400AF24D0 /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideView.m; sourceTree = "<group>"; };
+		9CED720413CFF7DC00AF24D0 /* fbPhotoStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fbPhotoStream.h; sourceTree = "<group>"; };
+		9CED720513CFF7DC00AF24D0 /* fbPhotoStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fbPhotoStream.m; sourceTree = "<group>"; };
+		9CED720713CFFAD700AF24D0 /* FBSecrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSecrets.h; sourceTree = "<group>"; };
+		9CED720813CFFD9200AF24D0 /* photostream_utility.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = photostream_utility.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,7 @@
 		9C5A061C13CFF07C00C3B00D = {
 			isa = PBXGroup;
 			children = (
+				9CED720313CFF7C400AF24D0 /* custom */,
 				9CED71FF13CFF67700AF24D0 /* FBConnect */,
 				9C5A063113CFF07D00C3B00D /* photostream_utility */,
 				9C5A065513CFF07D00C3B00D /* photostream_utilityTests */,
@@ -168,6 +175,7 @@
 				9C5A063213CFF07D00C3B00D /* Supporting Files */,
 				9CED720013CFF74400AF24D0 /* FlipsideView.h */,
 				9CED720113CFF74400AF24D0 /* FlipsideView.m */,
+				9CED720813CFFD9200AF24D0 /* photostream_utility.plist */,
 			);
 			path = photostream_utility;
 			sourceTree = "<group>";
@@ -237,8 +245,18 @@
 				9CED71F113CFF66B00AF24D0 /* FBConnect.h */,
 				9CED71F213CFF66B00AF24D0 /* Facebook.m */,
 				9CED71F313CFF66B00AF24D0 /* Facebook.h */,
+				9CED720713CFFAD700AF24D0 /* FBSecrets.h */,
 			);
 			name = FBConnect;
+			sourceTree = "<group>";
+		};
+		9CED720313CFF7C400AF24D0 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				9CED720413CFF7DC00AF24D0 /* fbPhotoStream.h */,
+				9CED720513CFF7DC00AF24D0 /* fbPhotoStream.m */,
+			);
+			name = custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +334,7 @@
 				9C5A064413CFF07D00C3B00D /* MainView.xib in Resources */,
 				9C5A064913CFF07D00C3B00D /* FlipsideView.xib in Resources */,
 				9CED71FD13CFF66C00AF24D0 /* FBDialog.bundle in Resources */,
+				9CED720913CFFD9200AF24D0 /* photostream_utility.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +385,7 @@
 				9CED71FC13CFF66C00AF24D0 /* FBDialog.m in Sources */,
 				9CED71FE13CFF66C00AF24D0 /* Facebook.m in Sources */,
 				9CED720213CFF74400AF24D0 /* FlipsideView.m in Sources */,
+				9CED720613CFF7DC00AF24D0 /* fbPhotoStream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +447,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = photostream_utility.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
@@ -441,6 +462,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = photostream_utility.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;

@@ -7,6 +7,7 @@
 //
 
 #import "FlipsideViewController.h"
+#import "fbPhotoStream.h"
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
 
